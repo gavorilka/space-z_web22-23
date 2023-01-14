@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid orange; */
+}
+body, .link, .btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #D4D4D4;
+}
+.container {
+    margin: 0 12.5%;
+}
+.site-header {
+    background-color:  #222222;
+}
+.header-nav {
+    padding-top: 54px;
+    display: flex;
+    align-items: center;
+    column-gap: 6.25%;
+}
+.nav-list, .contact-us {
+    display: flex;
+}
+.nav-list {
+    column-gap: 30px;
+}
+.nav-item, .advantage-item, .recomend-item {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.link:hover {
+    opacity: 0.8;
+}
+.contact-us {
+    margin-left: auto;
+    column-gap: 24px;
+}
+.icon {
+    display: block;
+    width: 17px;
+    height: 17PX;
+}
+.icon-mail {
+    background: url("../img/mail-icon.png") no-repeat;
+}
+.icon-phone {
+    background: url("../img/phone-icon.png") no-repeat;
+}
+.about-us {
+    background: url("../img/moon-rocket.png") no-repeat top right;
+}
+.about-wrapp {
+    width: 25%;
+    padding: 113px 0px 180px 13.125%;
+    min-width: 254px;
+}
+.about-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 51px;
+    min-width: 244px;
+    color: #fff;
+}
+.about-text {
+    margin: 30px 0px 55px;
+}
+.btn {
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 25px;
+    width: 240px;
+    padding: 17px 22px 17px 38px;
+    color:#000;
+}
+.btn::after {
+    content: "";
+    display: block;
+    width: 19px;
+    height: 16px;
+    float: right;
+}
+.btn-yellow {
+    background: #FFCB06;
+}
+.btn::after {
+    background: url("../img/right-arrow-dark.svg") no-repeat;
+}
+.advantages {
+    background: #131313;
+    padding: 85px 0 79px;
+}
+.advantages-list {
+    display: flex;
+    justify-content: space-between;
+}
+.advantage-item {
+    flex-basis: 170px;
+}
+.advantage-item::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 68px;
+    margin-bottom: 34px;
+}
+.advantage-rocket::before {
+    background: url("../img/advantage-icon-1.png") no-repeat;
+}
+.advantage-food::before {
+    background: url("../img/advantage-icon-2.png") no-repeat;
+}
+.advantage-pilots::before {
+    background: url("../img/advantage-icon-3.png") no-repeat;
+}
+.advantage-rover::before {
+    background: url("../img/advantage-icon-4.png") no-repeat;
+}
+.content {
+    color: #000;
+    padding: 80px 0 126px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 52px;
+}
+.columns-container {
+    display: flex;
+    column-gap: 80px;
+}
+.lead {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 27px;
+    margin-bottom: 27px;
+}
+p.lead {
+    margin-bottom: 41px;
+}
+.content-paragraf {
+    margin-bottom: 26px;
+}
+.recomend-item {
+    position: relative;
+    margin-left: 31px;
+    margin-bottom: 24px;
+}
+.recomend-item::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #FFCB06;
+    position: absolute;
+    left: -23px;
+    top: 5px;
+}
+.site-footer {
+    background-color: #131313;
+    padding: 60px 0px 88px;
+}
+.footer-columns-container {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.authors {
+    color: #555555;
+    width: 162px;
+}
+.footer-menu {
+    display: flex;
+    column-gap: 80px;
+}
+.footer-submenu-title {
+    text-transform: uppercase;
+    border-bottom: 1px solid #555555;
+    font-weight: 700;
+    display: block;
+    width: 180px;
+    margin-bottom: 70px;
+    padding-bottom: 12px;
+}
+.footer-submenu {
+    flex-direction: column;
+    gap: 28px 0px;
+}
+.footer-submenu .link {
+    color: #888888;
+}
